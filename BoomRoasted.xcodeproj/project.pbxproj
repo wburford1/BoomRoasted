@@ -14,6 +14,7 @@
 		82CDC8631CC01C7700FE5C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CDC8611CC01C7700FE5C96 /* LaunchScreen.storyboard */; };
 		82CDC86E1CC01C7700FE5C96 /* BoomRoastedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CDC86D1CC01C7700FE5C96 /* BoomRoastedTests.swift */; };
 		82CDC8791CC01C7700FE5C96 /* BoomRoastedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CDC8781CC01C7700FE5C96 /* BoomRoastedUITests.swift */; };
+		82D26E171CC028B4000A0BE1 /* roasted1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82D26E161CC028B4000A0BE1 /* roasted1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		82CDC8741CC01C7700FE5C96 /* BoomRoastedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomRoastedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CDC8781CC01C7700FE5C96 /* BoomRoastedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomRoastedUITests.swift; sourceTree = "<group>"; };
 		82CDC87A1CC01C7700FE5C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D26E161CC028B4000A0BE1 /* roasted1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roasted1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				82CDC85F1CC01C7700FE5C96 /* Assets.xcassets */,
 				82CDC8611CC01C7700FE5C96 /* LaunchScreen.storyboard */,
 				82CDC8641CC01C7700FE5C96 /* Info.plist */,
+				82D26E161CC028B4000A0BE1 /* roasted1.mp3 */,
 			);
 			path = BoomRoasted;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CDC8631CC01C7700FE5C96 /* LaunchScreen.storyboard in Resources */,
+				82D26E171CC028B4000A0BE1 /* roasted1.mp3 in Resources */,
 				82CDC8601CC01C7700FE5C96 /* Assets.xcassets in Resources */,
 				82CDC85E1CC01C7700FE5C96 /* Main.storyboard in Resources */,
 			);
@@ -484,6 +488,7 @@
 				82CDC87F1CC01C7700FE5C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82CDC8801CC01C7700FE5C96 /* Build configuration list for PBXNativeTarget "BoomRoastedTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				82CDC8821CC01C7700FE5C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82CDC8831CC01C7700FE5C96 /* Build configuration list for PBXNativeTarget "BoomRoastedUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				82CDC8851CC01C7700FE5C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
