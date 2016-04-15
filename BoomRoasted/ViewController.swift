@@ -38,6 +38,13 @@ class ViewController: UIViewController {
         do{
             audioPlayer = try AVAudioPlayer(contentsOfURL:url)
             audioPlayer.prepareToPlay()
+            do{
+                try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            }
+            catch {
+                print("error setting category")
+            }
+
             audioPlayer.play()
         }catch {
             print("Error getting the audio file")
